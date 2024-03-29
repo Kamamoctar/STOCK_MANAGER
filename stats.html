@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mainStyle.css">
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQOOfowj2Lmuqfhk94nnHeTzJ1WUBCQpYGKHRd245taw&s" type="image/x-icon">
+    <title>Statistiques - Stock manager</title>
+</head>
+<body>
+    <header id="tetePrincipale">
+        <div id="banniere">
+            <h1 id="textBanniere"></h1>
+        </div>
+        <nav id="menuPrincipal">
+            <ul>
+                <li class="menuItems"><a href="index.html">Accueil</a></li>
+                <li class="menuItems"><a href="add.html">Ajouter</a></li>
+                <li class="menuItems"><a href="subs.html">vendre</a></li>
+                <li class="menuItems"><a href="account.html">Compte</a></li>
+                <li class="menuItems"><a href="stats.html">Stats</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="contentPrincipal">
+        <header>
+            <h2>Statistiques</h2>
+            <p>Visualisez les données de vente et de stock.</p>
+        </header>
+
+        <div id="statsContainer">
+            <!-- Example of a stats section; you might use a chart library to visualize data -->
+            <section class="statsSection">
+                <h3>Valeur de l'inventaire</h3>
+                <div id="inventoryValueChart" class="chart"> Graphique de la valeur de l'inventaire ici</div>
+            </section>
+
+            <section class="statsSection">
+                <h3>Ventes</h3>
+                <div id="salesChart" class="chart"> Graphique des ventes ici</div>
+            </section>
+
+            <section class="statsSection">
+                <h3>Articles populaires</h3>
+                <div id="popularItemsSalesChart" class="chart"> Les plus populaires</div>
+            </section>
+
+            <section class="statsSection">
+                <h3>Articles populaires</h3>
+                <div id="LowStockAlerts" class="chart"> Stock Bas</div>
+            </section>
+
+            <!-- Additional stats sections as needed -->
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
